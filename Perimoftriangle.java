@@ -1,4 +1,4 @@
-// to find Perimeter of a Triangle
+
 import java.util.Scanner;
 class Perimoftriangle {
     public static void main(String[] args) {
@@ -10,4 +10,5 @@ class Perimoftriangle {
         System.out.println(perimeter);
         sc.close();
     }
+
 }
