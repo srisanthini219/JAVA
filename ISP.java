@@ -6,7 +6,7 @@ public class ISP {
 
        System.out.print("Enter ISP (1-Jio, 2-Airtel, 3-Vi): ");
        int ispChoice = scanner.nextInt();
-       scanner.nextLine(); // Consume newline
+       scanner.nextLine(); 
 
 
        String ispName = "";
@@ -61,4 +61,5 @@ public class ISP {
        System.out.println("Validity: " + validity);
    }
 }
+
 
