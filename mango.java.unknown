@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class main{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        int price = sc.nextInt();
+        int purchased = sc.nextInt();
+        int free = purchased / 3;             
+        int a = purchased + free;
+        int b = purchased * price;
+        System.out.println(+a);
+        System.out.println(+b);
+    }
+}
